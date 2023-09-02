@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Login Buzz</title>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+    
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+	<div id="login-box">
+		<div class="logo">
+			<img src="static\Images\Cybercell_logo.png" class="img img-responsive img-circle center-block" width="100" height="100" onmouseover="hover()"/> 
+			<h1 class="logo-caption"><span class="tweak">L</span>ogin</h1>
+		</div><!-- /.logo -->
+		<div class="controls">
+			<input type="text" name="username" placeholder="Username" id="Username" class="form-control" />
+			<input type="text" name="password" placeholder="Password" id="password" class="form-control" />
+			
+			<button type="login" value="login" onclick="login()" class="login" id="login" disabled>login</button>
+			
+		</div>
+		<h5 class="text1" onclick="hover2()" >Don't Try To ByPass it...</h5>
+	</div>
+	
+</div>
+
+
+<div id="particles-js"></div>
+<!-- partial -->
+  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css'></script>
+<script src='https://code.jquery.com/jquery-1.11.1.min.js'></script><script  src="./script.js"></script>
+
+<script>
+    function login() {
+		var us=document.getElementById("Username").value;
+		var pass=document.getElementById("password").value;
+
+		if(pass=="VibeWithCybercell"){
+        var txt = "Flag Is At /static/Flags/.."      
+        alert(txt);
+		}
+		else{
+			alert("TRY AGAIN... TRY DIFFERENTLY..!");
+		}
+		//login.preventDefault();
+    }
+	function hover(){
+		alert("You Need To Enable Login Button!");
+		
+	}
+	function hover2(){
+		alert("Store for further use - 31ef500d3b7d0f3054f99eeb85934b58.txt");
+	}
+</script>
+
+</body>
+</html>

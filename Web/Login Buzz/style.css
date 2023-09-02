@@ -1,0 +1,125 @@
+body, html {
+	height: 100%;
+	background-repeat: no-repeat;    
+	background:rgba(0, 0, 0, 0.788);
+	position: relative;
+}
+#login-box {
+	position: absolute;
+	top: 150px;
+	left: 50%;
+	transform: translateX(-50%);
+	min-width:300px;/*350px;*/
+	margin: 0 auto;
+	border: 3px solid rgba(193, 1, 14, 0.827);
+	background: rgba(48, 46, 45, 1);
+	min-height:200px; 
+	padding: 20px;
+	z-index: 9999;
+	border-radius: 20px;
+}
+#login-box .logo .logo-caption {
+	font-family: 'nasalization', cursive;
+	color: white;
+	text-align: center;
+	margin-bottom: 0px;
+}
+#login-box .text {
+	font-family: 'nasalization', cursive;
+	color: rgb(223, 25, 25);
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+#login-box .text1 {
+	font-family: 'nasalization', cursive;
+	color: rgb(223, 25, 25);
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+#text {
+	font-family: 'nasalization', cursive;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+#login-box .logo .tweak {
+	color: #D50004;
+}
+#login-box .controls {
+	padding-top: 30px;
+}
+#login-box .controls button{
+	
+	cursor: pointer;
+}
+#login-box .controls input {
+	background: rgb(98, 96, 96);
+	border: 0px;
+	color: white;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#login-box .controls input:focus {
+	box-shadow: 10px;
+}
+#login-box .controls input:first-child {
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+}
+#login-box .controls input:last-child {
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#login {
+	font-family: 'nasalization', cursive;
+	margin-top: 16px;
+	background:#D50004;
+	border-color: rgba(48, 46, 45, 1);
+	color: white;
+	border-radius: 10px;
+	min-width:250px;
+	min-height:35px; 
+
+	
+}
+#login:hover{
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+	background: rgba(48, 46, 45, 1);
+	border-color: #D50004;
+}
+#particles-js{
+  	width: 100%;
+  	height: 100%;
+  	background-size: cover;
+  	background-position: 50% 50%;
+  	position: fixed;
+  	top: 0px;
+  	z-index:0;
+}
+#logoimg{
+	padding: 0%;
+	
+}
