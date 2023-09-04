@@ -1,0 +1,9 @@
+Title : Workshop
+
+Description : CyberCell VIIT is one of the most active cell in VIIT. Our cell always strive to deliver awareness about cyber threats and frauds.
+I remember in the past, our cell organized a workshop where our cell membbers practically demonstrated few of the cyber attacks. 
+Unfortunately, I'm unable to recall the date when it was conducted. Can you help me find the date?
+
+Flag format : VishwaRecruits{DD/MM/YYYY}
+s
+Flag : VishwaRecruits{20/09/2020}
