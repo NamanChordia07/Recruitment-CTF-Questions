@@ -1,0 +1,8 @@
+Description : CBI is on a hunt for a criminal who is on a killing spree. 
+After a thorough investigation, the CBI found an audio of the criminal. 
+CBI wants to know what is the main weapon of the criminal and want your help. 
+Can you help CBI find main weapon of the criminal?
+
+Flag Format : VishwaRecruits{name_of_the_weapon}
+
+Flag : VishwaRecruits{ASHWATTHAMA}
