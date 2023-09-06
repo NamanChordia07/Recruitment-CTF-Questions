@@ -1,0 +1,8 @@
+Description : Recently, a group of scammers were detained for duping people for financial scams. 
+To find the evidence against them, Cyber Crime department, Pune scanned there whatsapp chats which they were using for communication.
+But due to some technical errors, they were unable to retrieve the actual chats instead they were able to find encrypted chats.
+Help the Cyber Crime Department, Pune to find the evidence against the scammers.
+
+File : evidence.txt
+
+Flag : VishwaRecruits{y0ur_m3ss4g35_4r3_3nd_t0_3nd_3ncrypt3d}
