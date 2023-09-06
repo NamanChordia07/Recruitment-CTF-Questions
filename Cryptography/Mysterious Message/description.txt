@@ -1,0 +1,8 @@
+My friend from Hyrule sent me this image but I can't understand it.
+He also said,
+"To break this cipher, you have to become a Fence climber,
+the magic number 3 will help you find your answer".
+
+Can you help me decode this message?
+
+Wrap the flag in VishwaRecruits{}
