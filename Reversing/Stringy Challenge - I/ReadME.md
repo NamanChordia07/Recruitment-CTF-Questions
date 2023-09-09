@@ -5,5 +5,9 @@ You have been provided with a mysterious C++ executable file that holds a secret
 ## Solution
 
 Just use the `Strings` command to extract the flag.
-**Flag:** VishwaRecruits{C0n9r49u1at10n_y0u_h4v3_S01v3d_y0ur_1st_rev_ques}
 
+### VishwaRecruits{C0n9r49u1at10n_y0u_h4v3_S01v3d_y0ur_1st_rev_ques}
+
+## Developer
+
+Naziya Mahimkar
