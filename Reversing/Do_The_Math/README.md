@@ -8,4 +8,4 @@
 > Enter the flag.
 
 ## Flag
-### `vishwarecruits{M4TH_15_E45Y}`
+### `VishwaRecruits{M4TH_15_E45Y}`
