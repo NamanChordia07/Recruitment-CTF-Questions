@@ -12,7 +12,7 @@ Flag obtain in executable
 
 After conversion from hex to text
 
-### ` VishwaRecruits {Y0u_Think_Y0ur3_Sm4rt_Huh_} `
+### ` VishwaRecruits{Y0u_Think_Y0ur3_Sm4rt_Huh_} `
 
 ## Developer 
 
