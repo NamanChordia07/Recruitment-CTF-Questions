@@ -1,6 +1,6 @@
 # STRINGy Challenge - II
 
-Welcome back, intrepid reverse engineers! In Part 2 of our challenge series, we've upped the ante. This time, it's a bit tricky with some hexadecimal encoding. Have you solved the first one?
+Welcome back, intrepid reverse engineers! In Part 2 of our challenge series, we've upped the ante. This time, it's a bit tricky with some **0x** encoding. Have you solved the first one?
 
 ## Solution
 
