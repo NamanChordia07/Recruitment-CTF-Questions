@@ -8,7 +8,7 @@ Just use the `Strings` command to extract the flag for both parts of this challe
 
 Flag obtain in executable
 
-` VishwaRecruits{5930755F5468696E6B5F59307572335F536D3472745F487568} `
+` VishwaRecruits{5930755F5468696E6B5F59307572335F536D3472745F4875685F} `
 
 After conversion from hex to text
 
