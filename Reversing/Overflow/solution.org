@@ -1,0 +1,63 @@
+#+title: Solution
+
+*Question:* Overflow
+*Description:* Change me to get the flag.
+*Author:* [[https://github.com/Yogesh9000][Yogesh Rathod]]
+
+*Overflow.c*
+#+begin_src c
+#include <err.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+
+#define BANNER "Welcome to SY Recuritment"
+
+int main(int argc, char **argv) {
+  struct {
+    char buffer[64];
+    volatile int changeme;
+  } locals;
+
+  printf("%s\n", BANNER);
+
+  if (argc < 2) {
+    errx(1, "specify an argument, to be copied into the \"buffer\"");
+  }
+
+  locals.changeme = 0;
+  strcpy(locals.buffer, argv[1]);
+
+  if (locals.changeme == 0x496c5962) {
+    printf(flag);
+  } else {
+    printf("Getting closer! changeme is currently 0x%08x, we want 0x496c5962\n",
+        locals.changeme);
+  }
+
+  exit(0);
+}
+#+end_src
+
+From above code we can see that a struct is defined containing a char array ~buffer~ and a integer ~changeme~. Later the program copies the argument we provide to the program into the buffer.
+
+The last conditional shows that we need to set the "changeme" variable to "0x496c5962":
+#+begin_src c
+if (locals.changeme == 0x496c5962) {
+    puts("Well done, you have successfully set changeme to the correct value");
+} else {
+    printf("Getting closer! changeme is currently 0x%08x, we want 0x496c5962\n",
+        locals.changeme);
+}
+#+end_src
+
+We can solve this challenge by oveflowing the buffer and overiding the value of changeme.You can read more about buffer overflow [[https://ctf101.org/binary-exploitation/buffer-overflow/][here]].
+
+We can use Python to send non-printable characters to the "overflow" program:
+#+begin_src python
+print "\x49\x6c\x59\x62"
+#+end_src
+
+However, we can't just tack that onto the end of the 64 A's, It depends upon the [[https://www.geeksforgeeks.org/little-and-big-endian-mystery/][endianness]] of the machine. Because my computer architecture uses little-endian to store data in memory, we need to reverse the order of those bytes. We can solve the challenge like so:
+[[./solution.png]]
