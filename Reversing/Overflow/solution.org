@@ -60,4 +60,4 @@ print "\x49\x6c\x59\x62"
 #+end_src
 
 However, we can't just tack that onto the end of the 64 A's, It depends upon the [[https://www.geeksforgeeks.org/little-and-big-endian-mystery/][endianness]] of the machine. Because my computer architecture uses little-endian to store data in memory, we need to reverse the order of those bytes. We can solve the challenge like so:
-[[./solution.png]]
+[[solution.png]]
